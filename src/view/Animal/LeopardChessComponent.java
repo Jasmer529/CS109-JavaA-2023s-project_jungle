@@ -16,9 +16,9 @@ public class LeopardChessComponent extends ChessPieceComponent {
         this.owner = owner;
         this.selected = false;
         if (owner.equals(PlayerColor.BLUE)){
-            leopard=new ImageIcon("C:\\Users\\16422\\Desktop\\Jungle\\heiheihei\\Jungle\\animalsPicture\\Leopard.png");
+            leopard=new ImageIcon("D:\\bak\\谁是小卷怪\\CS109PJ\\animalsPicture\\Leopard.png");
         } else if (owner.equals(PlayerColor.RED)) {
-            leopard=new ImageIcon("C:\\Users\\16422\\Desktop\\Jungle\\heiheihei\\Jungle\\animalsPicture\\Leopard2.png");
+            leopard=new ImageIcon("D:\\bak\\谁是小卷怪\\CS109PJ\\animalsPicture\\Leopard2.png");
         }
         setSize(size/2, size/2);
         setLocation(0,0);

@@ -103,13 +103,13 @@ public class AIChessGameFrame extends JFrame implements ActionListener{
         chessboardComponent.setLocation(HEIGTH / 5, (HEIGTH / 10)-50);
         add(chessboardComponent);
         try {
-            BufferedImage background= ImageIO.read(new FileInputStream("C:\\Users\\16422\\Desktop\\Jungle\\heiheihei\\Jungle\\background\\1.jpg"));
+            BufferedImage background= ImageIO.read(new FileInputStream("D:\\bak\\谁是小卷怪\\CS109PJ\\background\\1.jpg"));
             BufferedImage newBackground=ImageUtils.resizeImage(background,1100,810);
-            ImageIO.write(newBackground,"jpg",new File("C:\\Users\\16422\\Desktop\\Jungle\\heiheihei\\Jungle\\background\\1.jpg"));
+            ImageIO.write(newBackground,"jpg",new File("D:\\bak\\谁是小卷怪\\CS109PJ\\background\\1.jpg"));
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-        JLabel bg = new JLabel(new ImageIcon("C:\\Users\\16422\\Desktop\\Jungle\\heiheihei\\Jungle\\background\\1.jpg"));
+        JLabel bg = new JLabel(new ImageIcon("D:\\bak\\谁是小卷怪\\CS109PJ\\background\\1.jpg"));
         bg.setBounds(-200, 0, 1500, 810);
         add(bg);
     }

@@ -14,9 +14,9 @@ public class CatChessComponent extends ChessPieceComponent {
             this.owner = owner;
             this.selected = false;
         if (owner.equals(PlayerColor.BLUE)){
-            cat=new ImageIcon("C:\\Users\\16422\\Desktop\\Jungle\\heiheihei\\Jungle\\animalsPicture\\Cat.png");
+            cat=new ImageIcon("D:\\bak\\谁是小卷怪\\CS109PJ\\animalsPicture\\Cat.png");
         } else if (owner.equals(PlayerColor.RED)) {
-            cat=new ImageIcon("C:\\Users\\16422\\Desktop\\Jungle\\heiheihei\\Jungle\\animalsPicture\\Cat2.png");
+            cat=new ImageIcon("D:\\bak\\谁是小卷怪\\CS109PJ\\animalsPicture\\Cat2.png");
         }
             setSize(size/2, size/2);
             setLocation(0,0);

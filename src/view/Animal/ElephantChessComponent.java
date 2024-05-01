@@ -20,9 +20,9 @@ public class ElephantChessComponent extends ChessPieceComponent {
         this.owner = owner;
         this.selected = false;
         if (owner.equals(PlayerColor.BLUE)){
-            elephant=new ImageIcon("C:\\Users\\16422\\Desktop\\Jungle\\heiheihei\\Jungle\\animalsPicture\\Elephant.png");
+            elephant=new ImageIcon("D:\\bak\\谁是小卷怪\\CS109PJ\\animalsPicture\\Elephant.png");
         } else if (owner.equals(PlayerColor.RED)) {
-            elephant=new ImageIcon("C:\\Users\\16422\\Desktop\\Jungle\\heiheihei\\Jungle\\animalsPicture\\Elephant2.png");
+            elephant=new ImageIcon("D:\\bak\\谁是小卷怪\\CS109PJ\\animalsPicture\\Elephant2.png");
         }
         setSize(size/2, size/2);
         setLocation(0,0);

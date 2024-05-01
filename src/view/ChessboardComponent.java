@@ -37,8 +37,7 @@ public class ChessboardComponent extends JComponent {
         CHESS_SIZE = chessSize;
         int width = CHESS_SIZE * 7;
         int height = CHESS_SIZE * 9;
-        trap1=new ImageIcon("D:\\12\\程设\\project\\Jungle\\Jungle\\background\\Trap.png");
-        trap2=new ImageIcon("D:\\12\\程设\\project\\Jungle\\Jungle\\background\\Trap2.png");
+        trap1=new ImageIcon("D:\\bak\\谁是小卷怪\\CS109PJ\\background\\Trap.jpgg");
         enableEvents(AWTEvent.MOUSE_EVENT_MASK);// Allow mouse events to occur
         setLayout(null); // Use absolute layout.
         setSize(width, height);

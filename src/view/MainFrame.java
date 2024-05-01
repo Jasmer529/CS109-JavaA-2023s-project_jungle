@@ -42,7 +42,7 @@ public class MainFrame extends JFrame implements MouseListener,ActionListener {
         Button2.addMouseListener(this);
         this.frame.getContentPane().add(Button2);
 
-        JLabel bg = new JLabel(new ImageIcon("C:\\Users\\16422\\Desktop\\Jungle\\heiheihei\\Jungle\\background\\main.jpg"));
+        JLabel bg = new JLabel(new ImageIcon("D:\\bak\\谁是小卷怪\\CS109PJ\\background\\main.jpg"));
         bg.setBounds((ScreenUtils.getScreenWidth()-WIDTH)/2, (ScreenUtils.getScreenHeight()-HEIGHT)/2, 1100, 500);
         this.frame.getContentPane().add(bg);
 

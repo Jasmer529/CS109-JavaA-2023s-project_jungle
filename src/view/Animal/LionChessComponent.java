@@ -16,9 +16,9 @@ public class LionChessComponent extends ChessPieceComponent {
         this.owner = owner;
         this.selected = false;
         if (owner.equals(PlayerColor.BLUE)){
-            lion=new ImageIcon("C:\\Users\\16422\\Desktop\\Jungle\\heiheihei\\Jungle\\animalsPicture\\Lion.png");
+            lion=new ImageIcon("D:\\bak\\谁是小卷怪\\CS109PJ\\animalsPicture\\Lion.png");
         } else if (owner.equals(PlayerColor.RED)) {
-            lion=new ImageIcon("C:\\Users\\16422\\Desktop\\Jungle\\heiheihei\\Jungle\\animalsPicture\\Lion2.png");
+            lion=new ImageIcon("D:\\bak\\谁是小卷怪\\CS109PJ\\animalsPicture\\Lion2.png");
         }
         setSize(size/2, size/2);
         setLocation(0,0);

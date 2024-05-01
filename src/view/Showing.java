@@ -48,7 +48,7 @@ public class Showing extends ChessPieceComponent{
     private void loadImage() {
         try {
             {
-                image = ImageIO.read(new File("C:\\Users\\16422\\Desktop\\Jungle\\heiheihei\\Jungle\\background\\show.png")); // Replace "path/to/red_dog.jpg" with the actual path to your red dog image file.
+                image = ImageIO.read(new File("D:\\bak\\谁是小卷怪\\CS109PJ\\background\\show.jpg")); // Replace "path/to/red_dog.jpg" with the actual path to your red dog image file.
             }
 
         } catch (IOException e) {

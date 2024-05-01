@@ -16,9 +16,9 @@ public class WolfChessComponent extends ChessPieceComponent {
         this.owner = owner;
         this.selected = false;
         if (owner.equals(PlayerColor.BLUE)){
-            wolf=new ImageIcon("C:\\Users\\16422\\Desktop\\Jungle\\heiheihei\\Jungle\\animalsPicture\\Wolf.png");
+            wolf=new ImageIcon("D:\\bak\\谁是小卷怪\\CS109PJ\\animalsPicture\\Wolf.png");
         } else if (owner.equals(PlayerColor.RED)) {
-            wolf=new ImageIcon("C:\\Users\\16422\\Desktop\\Jungle\\heiheihei\\Jungle\\animalsPicture\\Wolf2.png");
+            wolf=new ImageIcon("D:\\bak\\谁是小卷怪\\CS109PJ\\animalsPicture\\Wolf2.png");
         }
         setSize(size/2, size/2);
         setLocation(0,0);

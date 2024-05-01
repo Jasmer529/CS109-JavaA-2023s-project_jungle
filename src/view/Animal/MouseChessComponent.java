@@ -16,9 +16,9 @@ public class MouseChessComponent extends ChessPieceComponent {
         this.owner = owner;
         this.selected = false;
         if (owner.equals(PlayerColor.BLUE)){
-            mouse=new ImageIcon("C:\\Users\\16422\\Desktop\\Jungle\\heiheihei\\Jungle\\animalsPicture\\Mouse.png");
+            mouse=new ImageIcon("D:\\bak\\谁是小卷怪\\CS109PJ\\animalsPicture\\Mouse.png");
         } else if (owner.equals(PlayerColor.RED)) {
-            mouse=new ImageIcon("C:\\Users\\16422\\Desktop\\Jungle\\heiheihei\\Jungle\\animalsPicture\\Mouse2.png");
+            mouse=new ImageIcon("D:\\bak\\谁是小卷怪\\CS109PJ\\animalsPicture\\Mouse2.png");
         }
         setSize(size/2, size/2);
         setLocation(0,0);

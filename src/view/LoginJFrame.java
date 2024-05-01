@@ -60,7 +60,7 @@ public class LoginJFrame implements MouseListener, ActionListener {
             registerButton.addMouseListener(this);
             this.loginFrame.getContentPane().add(registerButton);
 
-            JLabel bg = new JLabel(new ImageIcon("D:\\12\\程设\\project\\Jungle\\Jungle\\background\\login.jpg"));
+            JLabel bg = new JLabel(new ImageIcon("D:\\bak\\谁是小卷怪\\CS109PJ\\background\\login.jpg"));
             bg.setBounds((ScreenUtils.getScreenWidth()-WIDTH)/2, (ScreenUtils.getScreenHeight()-HEIGHT)/2, 470, 390);
             this.loginFrame.getContentPane().add(bg);
 
